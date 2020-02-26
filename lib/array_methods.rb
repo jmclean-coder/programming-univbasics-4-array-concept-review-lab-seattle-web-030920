@@ -33,7 +33,7 @@ end
 # end
 
 def find_min_value(array)
-x = 10
+x = 1000
   array.length.times { |index| if array[index] < x
   x = array[index]
   end
